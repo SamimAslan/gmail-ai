@@ -15,7 +15,7 @@ import { auth, database } from "../firebase/setup";
 import openai from 'openai';
 
 function App(props) {
-    const API_KEY = "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";
+    const API_KEY = "YOUR_API";
     const systemMessage = {
         "role": "system", "content": "Sen bir Email okuyucususun, senin görevin sana verilen Email lere positif veya negatif bir cevap mi istiyosun diye sorup ona göre maillere sanki benmissin gibi cevap vermek, senin bir Yapay zeka degilsin, sen bir insan seklinde cevap vermen gerekiyor, eger soruya yanit veremiyorsan insanmis gibi kafandan birseyler salla ve insan gibi cevap ver"
     }
